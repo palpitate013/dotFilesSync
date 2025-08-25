@@ -2,10 +2,10 @@
 set -e
 
 # Variables
-SCRIPT_NAME="file-sync.py"
+SCRIPT_NAME="dotsync.py"
 INSTALL_DIR="/usr/local/bin"
 INSTALL_PATH="$INSTALL_DIR/$SCRIPT_NAME"
-SERVICE_NAME="file-sync.service"
+SERVICE_NAME="dotsync.service"
 SYSTEMD_PATH="/etc/systemd/system/$SERVICE_NAME"
 USER=$(whoami)
 
